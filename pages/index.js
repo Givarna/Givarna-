@@ -28,7 +28,17 @@ export default function Home() {
             Thank you for subscribing! 🎉 You can now connect with others.
           </div>
         )}
-      </main>
+     <div className="mt-8 space-y-4">
+  <a href="https://buy.stripe.com/test_5kQ9AS7o10oZ3tP1Ni9fW01" target="_blank" rel="noopener noreferrer">
+    <button className="bg-blue-600 text-white px-6 py-3 rounded-lg w-full">Join Truebee (£5.99/month)</button>
+  </a>
+  <a href="https://buy.stripe.com/test_14A6oG37L7Rr8O9eA49fW00" target="_blank" rel="noopener noreferrer">
+    <button className="bg-purple-600 text-white px-6 py-3 rounded-lg w-full">Join Queens (£14.99/month)</button>
+  </a>
+  <a href="https://buy.stripe.com/test_14A5kCcIl9ZzggBcrW9fW02" target="_blank" rel="noopener noreferrer">
+    <button className="bg-pink-600 text-white px-6 py-3 rounded-lg w-full">Join Angel (£30/month)</button>
+  </a>
+</div> </main>
     </div>
   );
           }
